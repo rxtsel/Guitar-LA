@@ -1,0 +1,72 @@
+.card {
+  border-radius: 1rem;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+  transition: transform .3s ease-in-out;
+}
+
+.imagen {
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+}
+
+.contenido {
+  padding: 2rem;
+}
+
+.contenido h2 {
+  font-size: 2.8rem;
+  font-weight: 400;
+  margin: 0;
+  line-height: 1.2;
+}
+
+.fecha {
+  color: var(--primary);
+  font-size: 1.6rem;
+}
+
+.resumen {
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  overflow: hidden;
+}
+
+.contenido a {
+  margin-top: 2rem;
+  text-decoration: none;
+  display: block;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 1.4rem;
+  color: var(--negro);
+  border: 1px solid var(--primary);
+  padding: 1rem 5rem;
+  transition: background-color, color, .3s ease-in-out;
+  box-shadow: 2px 2px 10px rgba(179, 144, 39, 0.062);
+  border-radius: .5rem;
+}
+
+.contenido a:hover {
+  background-color: var(--primary);
+  color: var(--blanco);
+}
+
+/* ENTRADAS DE BLOG */
+.entrada {
+  max-width: 80rem;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.entrada p {
+  word-break: break-word;
+}
+
+.texto {
+  white-space: pre-wrap;
+}
+
+.imagenEntrada {
+  border-radius: 1.5rem;
+}
